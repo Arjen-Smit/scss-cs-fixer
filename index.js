@@ -1,6 +1,6 @@
 var config = require('./src/config.js')();
-var list = config.getEnabledFunctionList();
+var list = config.getEnabledOperatorList();
 
-// console.log(list);
+console.log(list);
 
-// console.log(config.getFunctionSettings('StringQuotes'));
+console.log(config.getOperatorSettings('StringQuotes'));

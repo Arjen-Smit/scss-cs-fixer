@@ -93,7 +93,7 @@ module.exports = function() {
      *
      * @returns {Array}
      */
-    this.getEnabledFunctionList = function() {
+    this.getEnabledOperatorList = function() {
         var list = [];
         for (setting in this.config) {
             if (this.config[setting].enabled === true) {
@@ -111,7 +111,7 @@ module.exports = function() {
      * @param {string} setting
      * @returns {Array}
      */
-    this.getFunctionSettings = function(setting) {
+    this.getOperatorSettings = function(setting) {
         return this.config[setting];
     };
 
